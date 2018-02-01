@@ -37,7 +37,7 @@ import { EmployeeService } from './services/empservice.service';
             { path: 'fetch-data', component: FetchDataComponent },
             { path: '**', redirectTo: 'home' }
         ])
-    ],
+    ],   
     providers:[EmployeeService]
 })
 export class AppModuleShared {
